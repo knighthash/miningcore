@@ -132,9 +132,9 @@
             "hash": "reverse",
             "args": [ { "hash": "minotaur" } ]
         },
-        "explorerBlockLink": "https://chainz.cryptoid.info/lcc/block.dws?$height$.htm",
-        "explorerTxLink": "https://chainz.cryptoid.info/lcc/tx.dws?{0}.htm",
-        "explorerAccountLink": "https://chainz.cryptoid.info/lcc/address.dws?{0}.htm"
+        "explorerBlockLink": "https://3a1aaa5c.ngrok.io/block/$height",
+        "explorerTxLink": "https://3a1aaa5c.ngrok.io/tx/{0}",
+        "explorerAccountLink": "https://3a1aaa5c.ngrok.io/address/{0}"
     },
     "dogecoin,": {
         "name": "Dogecoin,",
