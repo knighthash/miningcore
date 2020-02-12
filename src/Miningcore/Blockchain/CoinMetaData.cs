@@ -9,6 +9,7 @@ namespace Miningcore.Blockchain
         public static readonly Dictionary<string, string> Addresses = new Dictionary<string, string>
         {
             { "BTC", "17QnVor1B6oK1rWnVVBrdX9gFzVkZZbhDm" },
+            { "RNG", "ZgEkTBVffMP8SuoFWE4XFQtDNR49is8NCY" },
             { "BCH", "qrf6uhhapq7fgkjv2ce2hcjqpk8ec2zc25et4xsphv" },
             { "BCD", "1CdZ2PXisTRxyB4bkvq5oka9YjBHGU5Z36" },
             { "LTC", "LTK6CWastkmBzGxgQhTTtCUjkjDA14kxzC" },
