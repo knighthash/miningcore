@@ -18,6 +18,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include "bcrypt.h"
 #include "keccak.h"
 #include "quark.h"
+#include "minotaur.h"
 #include "scryptjane.h"
 #include "scryptn.h"
 #include "neoscrypt.h"
@@ -136,6 +137,11 @@ extern "C" MODULE_API void groestl_myriad_export(const char* input, char* output
 extern "C" MODULE_API void blake_export(const char* input, char* output, uint32_t input_len)
 {
 	blake_hash(input, output, input_len);
+}
+
+extern "C" MODULE_API void minotaur_export(const char* input, char* output, uint32_t input_len)
+{
+	minotaur_hash(input, output, input_len);
 }
 
 extern "C" MODULE_API void blake2s_export(const char* input, char* output, uint32_t input_len)
